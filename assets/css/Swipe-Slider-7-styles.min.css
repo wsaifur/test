@@ -1,0 +1,873 @@
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+@keyframes flash {
+}
+
+.flash {
+  animation-name: flash;
+}
+
+@keyframes pulse {
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+@keyframes rubberBand {
+}
+
+.rubberBand {
+  animation-name: rubberBand;
+}
+
+@keyframes shake {
+}
+
+.shake {
+  animation-name: shake;
+}
+
+@keyframes headShake {
+}
+
+.headShake {
+  animation-timing-function: ease-in-out;
+  animation-name: headShake;
+}
+
+@keyframes swing {
+}
+
+.swing {
+  transform-origin: top center;
+  animation-name: swing;
+}
+
+@keyframes tada {
+}
+
+.tada {
+  animation-name: tada;
+}
+
+@keyframes wobble {
+}
+
+.wobble {
+  animation-name: wobble;
+}
+
+@keyframes jello {
+}
+
+.jello {
+  animation-name: jello;
+  transform-origin: center;
+}
+
+@keyframes bounceIn {
+}
+
+.bounceIn {
+  animation-duration: .75s;
+  animation-name: bounceIn;
+}
+
+.bounceOut, .flipOutX {
+  animation-duration: .75s;
+}
+
+@keyframes bounceInDown {
+}
+
+.bounceInDown {
+  animation-name: bounceInDown;
+}
+
+@keyframes bounceInLeft {
+}
+
+.bounceInLeft {
+  animation-name: bounceInLeft;
+}
+
+@keyframes bounceInRight {
+}
+
+.bounceInRight {
+  animation-name: bounceInRight;
+}
+
+@keyframes bounceInUp {
+}
+
+.bounceInUp {
+  animation-name: bounceInUp;
+}
+
+@keyframes bounceOut {
+}
+
+.bounceOut {
+  animation-name: bounceOut;
+}
+
+@keyframes bounceOutDown {
+}
+
+.bounceOutDown {
+  animation-name: bounceOutDown;
+}
+
+@keyframes bounceOutLeft {
+}
+
+.bounceOutLeft {
+  animation-name: bounceOutLeft;
+}
+
+@keyframes bounceOutRight {
+}
+
+.bounceOutRight {
+  animation-name: bounceOutRight;
+}
+
+@keyframes bounceOutUp {
+}
+
+.bounceOutUp {
+  animation-name: bounceOutUp;
+}
+
+@keyframes fadeIn {
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInDown {
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDownBig {
+}
+
+.fadeInDownBig {
+  animation-name: fadeInDownBig;
+}
+
+@keyframes fadeInLeft {
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInLeftBig {
+}
+
+.fadeInLeftBig {
+  animation-name: fadeInLeftBig;
+}
+
+@keyframes fadeInRight {
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInRightBig {
+}
+
+.fadeInRightBig {
+  animation-name: fadeInRightBig;
+}
+
+@keyframes fadeInUp {
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUpBig {
+}
+
+.fadeInUpBig {
+  animation-name: fadeInUpBig;
+}
+
+@keyframes fadeOut {
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+}
+
+@keyframes fadeOutDown {
+}
+
+.fadeOutDown {
+  animation-name: fadeOutDown;
+}
+
+@keyframes fadeOutDownBig {
+}
+
+.fadeOutDownBig {
+  animation-name: fadeOutDownBig;
+}
+
+@keyframes fadeOutLeft {
+}
+
+.fadeOutLeft {
+  animation-name: fadeOutLeft;
+}
+
+@keyframes fadeOutLeftBig {
+}
+
+.fadeOutLeftBig {
+  animation-name: fadeOutLeftBig;
+}
+
+@keyframes fadeOutRight {
+}
+
+.fadeOutRight {
+  animation-name: fadeOutRight;
+}
+
+@keyframes fadeOutRightBig {
+}
+
+.fadeOutRightBig {
+  animation-name: fadeOutRightBig;
+}
+
+@keyframes fadeOutUp {
+}
+
+.fadeOutUp {
+  animation-name: fadeOutUp;
+}
+
+@keyframes fadeOutUpBig {
+}
+
+.fadeOutUpBig {
+  animation-name: fadeOutUpBig;
+}
+
+@keyframes flip {
+}
+
+.animated.flip {
+  backface-visibility: visible;
+  animation-name: flip;
+}
+
+@keyframes flipInX {
+}
+
+.flipInX {
+  backface-visibility: visible!important;
+  animation-name: flipInX;
+}
+
+.flipInY, .flipOutX {
+  backface-visibility: visible!important;
+}
+
+@keyframes flipInY {
+}
+
+.flipInY {
+  animation-name: flipInY;
+}
+
+@keyframes flipOutX {
+}
+
+.flipOutX {
+  animation-name: flipOutX;
+}
+
+@keyframes flipOutY {
+}
+
+.flipOutY {
+  animation-duration: .75s;
+  backface-visibility: visible!important;
+  animation-name: flipOutY;
+}
+
+@keyframes lightSpeedIn {
+}
+
+.lightSpeedIn {
+  animation-name: lightSpeedIn;
+  animation-timing-function: ease-out;
+}
+
+@keyframes lightSpeedOut {
+}
+
+.lightSpeedOut {
+  animation-name: lightSpeedOut;
+  animation-timing-function: ease-in;
+}
+
+@keyframes rotateIn {
+}
+
+.rotateIn {
+  animation-name: rotateIn;
+}
+
+@keyframes rotateInDownLeft {
+}
+
+.rotateInDownLeft {
+  animation-name: rotateInDownLeft;
+}
+
+@keyframes rotateInDownRight {
+}
+
+.rotateInDownRight {
+  animation-name: rotateInDownRight;
+}
+
+@keyframes rotateInUpLeft {
+}
+
+.rotateInUpLeft {
+  animation-name: rotateInUpLeft;
+}
+
+@keyframes rotateInUpRight {
+}
+
+.rotateInUpRight {
+  animation-name: rotateInUpRight;
+}
+
+@keyframes rotateOut {
+}
+
+.rotateOut {
+  animation-name: rotateOut;
+}
+
+@keyframes rotateOutDownLeft {
+}
+
+.rotateOutDownLeft {
+  animation-name: rotateOutDownLeft;
+}
+
+@keyframes rotateOutDownRight {
+}
+
+.rotateOutDownRight {
+  animation-name: rotateOutDownRight;
+}
+
+@keyframes rotateOutUpLeft {
+}
+
+.rotateOutUpLeft {
+  animation-name: rotateOutUpLeft;
+}
+
+@keyframes rotateOutUpRight {
+}
+
+.rotateOutUpRight {
+  animation-name: rotateOutUpRight;
+}
+
+@keyframes hinge {
+}
+
+.hinge {
+  animation-duration: 2s;
+  animation-name: hinge;
+}
+
+@keyframes jackInTheBox {
+}
+
+.jackInTheBox {
+  animation-name: jackInTheBox;
+}
+
+@keyframes rollIn {
+}
+
+.rollIn {
+  animation-name: rollIn;
+}
+
+@keyframes rollOut {
+}
+
+.rollOut {
+  animation-name: rollOut;
+}
+
+@keyframes zoomIn {
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+
+@keyframes zoomInDown {
+}
+
+.zoomInDown {
+  animation-name: zoomInDown;
+}
+
+@keyframes zoomInLeft {
+}
+
+.zoomInLeft {
+  animation-name: zoomInLeft;
+}
+
+@keyframes zoomInRight {
+}
+
+.zoomInRight {
+  animation-name: zoomInRight;
+}
+
+@keyframes zoomInUp {
+}
+
+.zoomInUp {
+  animation-name: zoomInUp;
+}
+
+@keyframes zoomOut {
+}
+
+.zoomOut {
+  animation-name: zoomOut;
+}
+
+@keyframes zoomOutDown {
+}
+
+.zoomOutDown {
+  animation-name: zoomOutDown;
+}
+
+@keyframes zoomOutLeft {
+}
+
+.zoomOutLeft {
+  animation-name: zoomOutLeft;
+}
+
+@keyframes zoomOutRight {
+}
+
+.zoomOutRight {
+  animation-name: zoomOutRight;
+}
+
+@keyframes zoomOutUp {
+}
+
+.zoomOutUp {
+  animation-name: zoomOutUp;
+}
+
+@keyframes slideInDown {
+}
+
+.slideInDown {
+  animation-name: slideInDown;
+}
+
+@keyframes slideInLeft {
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+}
+
+@keyframes slideInRight {
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+}
+
+@keyframes slideInUp {
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+}
+
+@keyframes slideOutDown {
+}
+
+.slideOutDown {
+  animation-name: slideOutDown;
+}
+
+@keyframes slideOutLeft {
+}
+
+.slideOutLeft {
+  animation-name: slideOutLeft;
+}
+
+@keyframes slideOutRight {
+}
+
+.slideOutRight {
+  animation-name: slideOutRight;
+}
+
+@keyframes slideOutUp {
+}
+
+.slideOutUp {
+  animation-name: slideOutUp;
+}
+
+#fw_al_001 {
+  overflow: hidden;
+  max-height: 750px;
+  position: relative;
+  background: #000;
+}
+
+#fw_al_001:hover {
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+#fw_al_001:active {
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+#fw_al_001 > .carousel-inner > .carousel-item > a > img, #fw_al_001 > .carousel-inner > .carousel-item > img {
+  opacity: .45;
+  margin: auto;
+  width: 100%!important;
+}
+
+.ps_slide_y .carousel-inner, .ps_slide_y .carousel-item {
+  height: 100%;
+}
+
+.ps_slide_y .carousel-item-next.carousel-item-left, .ps_slide_y .carousel-item-prev.carousel-item-right {
+  transform: translateY(0);
+}
+
+.ps_slide_y .active.carousel-item-right, .ps_slide_y .carousel-item-next {
+  transform: translateY(100%);
+}
+
+.ps_slide_y .active.carousel-item-left, .ps_slide_y .carousel-item-prev {
+  transform: translateY(-100%);
+}
+
+.ps_indicators_y .carousel-indicators {
+  top: 0;
+  left: 3%;
+  width: 5%;
+  bottom: 0;
+  height: 25%;
+  right: auto;
+  margin: auto;
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.ps_indicators_y .carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  display: block;
+  margin: 10px auto;
+  background: 0 0;
+  border-radius: 0;
+  border: 2px solid rgba(76,133,75,0.7);
+}
+
+.ps_indicators_y .carousel-indicators .active {
+  width: 13px;
+  height: 13px;
+  margin: 10px auto;
+  background: #1fe700;
+}
+
+.ps_indicators_y .carousel-indicators::-webkit-scrollbar {
+  width: 3px;
+}
+
+.ps_indicators_y .carousel-indicators::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,.5);
+  border-radius: 0;
+}
+
+.fw_al_001_slide {
+  left: 0;
+  top: 25%;
+  right: 0;
+  width: 65%;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+
+.fw_al_001_slide > h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+  letter-spacing: 6px;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: 'Allura;
+  animation-delay: .5s;
+  animation-duration: 6s;
+  animation-timing-function: cubic-bezier(.23,1,.32,1);
+}
+
+.fw_al_001_slide > h1, .fw_al_001_slide > p {
+  color: #ffffff;
+  line-height: normal;
+  -webkit-animation-delay: .5s;
+  -webkit-animation-timing-function: cubic-bezier(.23,1,.32,1);
+  font-weight: 400;
+}
+
+.fw_al_001_slide > h1 {
+  font-size: 60px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-family: 'cinzel;
+  animation-delay: .5s;
+  animation-duration: 7s;
+  animation-timing-function: cubic-bezier(.23,1,.32,1);
+}
+
+.fw_al_001_slide > p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-family: 'Roboto;
+  animation-delay: .5s;
+  animation-duration: 8s;
+  animation-timing-function: cubic-bezier(.23,1,.32,1);
+}
+
+.fw_al_001_slide > a, .fw_al_001_slide > a:visited {
+  outline: 0;
+  width: auto;
+  height: 50px;
+  color: #ffffff;
+  padding: 0 23px;
+  cursor: pointer;
+  font-size: 13px;
+  text-align: left;
+  text-shadow: none;
+  line-height: 50px;
+  margin: 30px 10px;
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #3dbe3d;
+  text-transform: uppercase;
+  font-family: 'cinzel;
+  animation-delay: .5s;
+  animation-duration: 9s;
+  animation-timing-function: cubic-bezier(.23,1,.32,1);
+  transition: background cubic-bezier(.23,1,.32,1) .7s;
+}
+
+.fw_al_001_slide > a:active, .fw_al_001_slide > a:hover {
+  color: #fff;
+  background: rgba(23,52,23,0.63);
+  border: 2px solid #58993a;
+}
+
+@media only screen and (max-width:480px) {
+  .fw_al_001_slide {
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .ps_indicators_y > .carousel-indicators {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .fw_al_001_slide > h3 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .fw_al_001_slide > h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .fw_al_001_slide > p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .fw_al_001_slide > a, .fw_al_001_slide > a:visited {
+    height: 40px;
+    margin: 0 10px;
+    padding: 0 23px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width:481px) and (max-width:600px) {
+  .fw_al_001_slide {
+    top: 5%;
+    width: 100%;
+  }
+}
+
+@media (min-width:481px) and (max-width:600px) {
+  .fw_al_001_slide > h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width:601px) and (max-width:767px) {
+  .fw_al_001_slide {
+    top: 15%;
+    width: 100%;
+  }
+}
+
+.ps_ease .carousel-item {
+  transition-timing-function: ease;
+}
+
+.ps_easeInOut .carousel-item {
+  transition-timing-function: ease-in-out;
+}
+
+.ps_speedy .carousel-item {
+  transition-timing-function: cubic-bezier(0,1,0,1);
+}
+
+.ps_slowSpeedy .carousel-item {
+  transition-timing-function: cubic-bezier(.3,1,0,1);
+}
+
+.ps_easeOutInCubic .carousel-item {
+  transition-timing-function: cubic-bezier(.22,.81,.01,.99);
+}
+
+.ps_swing .carousel-item {
+  transition-timing-function: cubic-bezier(.02,.01,.47,1);
+}
+
+.ps_easeOutCubic .carousel-item {
+  transition-timing-function: cubic-bezier(.215,.61,.355,1);
+}
+
+.ps_easeInOutCubic .carousel-item {
+  transition-timing-function: cubic-bezier(.645,.045,.355,1);
+}
+
+.ps_easeOutCirc .carousel-item {
+  transition-timing-function: cubic-bezier(.075,.82,.165,1);
+}
+
+.ps_easeOutExpo .carousel-item {
+  transition-timing-function: cubic-bezier(.19,1,.22,1);
+}
+
+.ps_easeInQuad .carousel-item {
+  transition-timing-function: cubic-bezier(.55,.085,.68,.53);
+}
+
+.ps_easeOutQuad .carousel-item {
+  transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+}
+
+.ps_easeInOutQuad .carousel-item {
+  transition-timing-function: cubic-bezier(.455,.03,.515,.955);
+}
+
+.ps_easeOutQuart .carousel-item {
+  transition-timing-function: cubic-bezier(.165,.84,.44,1);
+}
+
+.ps_easeInOutQuart .carousel-item {
+  transition-timing-function: cubic-bezier(.77,0,.175,1);
+}
+
+.ps_easeOutQuint .carousel-item {
+  transition-timing-function: cubic-bezier(.23,1,.32,1);
+}
+
+.ps_easeInSine .carousel-item {
+  transition-timing-function: cubic-bezier(.47,0,.745,.715);
+}
+
+.ps_easeOutSine .carousel-item {
+  transition-timing-function: cubic-bezier(.39,.575,.565,1);
+}
+
+.ps_easeInOutSine .carousel-item {
+  transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+}
+
